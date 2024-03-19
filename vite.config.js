@@ -2,7 +2,7 @@ import { defineConfig } from "vite"
 import path from "path"
 
 export default defineConfig({
-  base: `./`,
+  base: `/test-repo/`,
   server: {
     port: 3000, // controls which port to use.
     open: "/index.html", // which addres we should open into.
